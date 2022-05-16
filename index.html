@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="frame-block">
+        <img class="frame-bg" src="\assets\bg-with-screen.svg">
+        <div class="frame-container">
+            <div class="screen-container">
+                <div class="image-container" id="image-container">
+                    <img id="pokemon-image" src="">
+                </div>
+                <div class="info hide" id="info">
+                    <h4 class="title">Name: </h4>
+                    <h2 id="pokemon-name"></h2>
+                    <h4 class="title">Type: </h4>
+                    <h2 id="pokemon-type"></h2>
+                    <h4 class="title">Base Stats</h4>
+                    <h2 class="stat" id="hp">HP: </h2>
+                    <h2 class="stat" id="attack">Attack: </h2>
+                    <h2 class="stat" id="defense">Defense: </h2>
+                    <h2 class="stat" id="sp-attack">Sp. Attack: </h2>
+                    <h2 class="stat" id="sp-defense">Sp. Defense: </h2>
+                    <h2 class="stat" id="speed">Speed: </h2>
+                </div>
+            </div>
+
+            <div class="lower-bar">
+                <button class="info-button" onclick="infoButton()">
+                    <p class="i">i</p>
+                </button>
+                <form class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search for a Pokemon..."
+                        oninvalid="('That is not a real pokemon. Pls check your spelling.')" oninput="('')">
+                    <input type="button" id="search-button" class="search-button" value="Search"
+                        onclick="setPokemonName();">
+            </div>
+        </div>
+    </div>
+    <div class="original-block">
+        <div class="original-list-container">
+
+        </div>
+    </div>
+
+
+
+    <script src=" app.js"></script>
+</body>
+
+</html>
