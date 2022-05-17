@@ -10,8 +10,15 @@
 </head>
 
 <body>
-    <div class="frame-block">
+    <div class="header-block">
+        <div class="header-container">
+            <div class="main-header" id="main-header" onclick="chill();">Chill with the squad.</div>
+            <div class="team-header hide" id="team-header" onclick="catchEmAll();">Go catch em' all.</div>
+        </div>
+    </div>
+    <div class="frame-block" id="frame-block">
         <img class="frame-bg" src="\assets\bg-with-screen.svg">
+
         <div class="frame-container">
             <div class="screen-container">
                 <div class="image-container" id="image-container">
@@ -43,16 +50,19 @@
                         onclick="setPokemonName();">
             </div>
         </div>
+        <button type="button" class="catch-button" onclick="catchPokemon();">
+            <div class="pokeball-button"></div>
+        </button>
     </div>
-    <div class="original-block">
-        <div class="original-list-container">
+    <div class="team-block hide" id="team-block">
+        <div class="team-list-container" id="team-list-container">
 
         </div>
     </div>
 
 
 
-    <script src=" app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

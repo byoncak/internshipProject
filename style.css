@@ -10,10 +10,11 @@ html {
 }
 
 .frame-block {
-    margin-top: 3.2em;
+    margin-top: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 
@@ -28,6 +29,7 @@ html {
 
 
 .lower-bar {
+    margin-top: -2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,6 +137,7 @@ input[type=text] {
     position: absolute;
     width: auto;
     height: auto;
+    margin-top: -4em;
 
 }
 
@@ -143,6 +146,7 @@ input[type=text] {
 }
 
 .info {
+    margin-top: -6.4em;
     align-items: left;
     flex-direction: column;
     width: 100%;
@@ -155,8 +159,6 @@ input[type=text] {
     min-width: 0%;
     min-height: 0;
     padding-left: 8em;
-    margin-top: 2em;
-    margin-bottom: 1.6em;
     color: royalblue;
 
 }
@@ -171,4 +173,120 @@ input[type=text] {
 
 .title {
     color: navy;
+}
+
+.catch-button {
+    z-index: 4;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image:
+        linear-gradient(to bottom,
+            #7e308e 50%,
+            #7e308e 50%,
+            #FFFFFF 50%,
+            #FFFFFF 50%);
+    border: 1px solid #A33333;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25), inset 0px -4px 8px rgba(0, 0, 0, 0.25), inset -4px 4px 8px rgba(255, 255, 255, 0.4);
+    margin-top: 0.8em;
+}
+
+.pokeball-button {
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 100%;
+    border: 2px solid #232323;
+    height: 10px;
+    width: 10px;
+    z-index: 5;
+}
+
+.header-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.4em;
+    color: beige;
+    font-size: 16px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 12px;
+    letter-spacing: 2.4px;
+}
+
+.main-header {
+    cursor: pointer;
+}
+
+.team-header {
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    height: 360px;
+    width: 240px;
+}
+
+.card-body {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 16px;
+    background-color: rgb(16, 16, 71);
+    border: 8px solid rgb(225, 225, 73);
+    height: 360px;
+    width: 240px;
+}
+
+.card-image-container {
+
+    margin-top: -4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208px;
+    height: 232px;
+    border-radius: 8px;
+    background-color: beige;
+    box-shadow: inset -64px 40px 80px rgba(255, 255, 255, 1);
+}
+
+.pokemon-card-image {
+
+    width: 200px;
+
+}
+
+.pokemon-card-name {
+    margin-bottom: -1em;
+    align-self: center;
+    color: beige;
+    font-size: 16px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 12px;
+    letter-spacing: 2.4px;
+}
+
+.team-block {
+    display: flex;
+    margin-top: -36em;
+}
+
+.team-list-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 4em;
 }

@@ -18,10 +18,6 @@ reveal some startling information about the Pokemon.
 Still in the Backlog:
 ---------------------
 
-- Originally I intended to have a catchPokemon() method. 
-  It would allow users to save the pokemon they've searched for,
-  into their own collection.
-
 - I also wanted to implement an "Original 151" page.
   It would be collection of all the pokemon for users to 
   scroll and search through.
