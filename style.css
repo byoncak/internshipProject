@@ -146,7 +146,7 @@ input[type=text] {
 }
 
 .info {
-    margin-top: -8em;
+    margin-top: -7.2rem;
     align-items: left;
     flex-direction: column;
     width: 100%;
