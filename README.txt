@@ -10,9 +10,14 @@ Description:
 
 Type the name of any of the Original 151 Pokemon into the search bar,
 and watch that beautiful creature show up on the screen of your pokedex.
+
 Take things to the next level by clicking on the red Info (i) Button to
 reveal some startling information about the Pokemon.
 
+BUT WAIT, THERE'S MORE!
+
+Click the masterball at the bottom of the screen to catch any pokemon you find.
+Then click "Chill with the squad." at the top of the screen to.. well.. chill.
 
 
 Still in the Backlog:
